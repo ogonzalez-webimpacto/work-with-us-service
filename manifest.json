@@ -1,0 +1,35 @@
+{
+  "name": "work-with-us",
+  "vendor": "webimpacto",
+  "version": "0.2.20",
+  "title": "work-with-us",
+  "description": "Reference app for VTEX IO Services",
+  "mustUpdateAt": "2018-01-04",
+  "categories": [],
+  "dependencies": {},
+  "builders": {
+    "node": "6.x",
+    "docs": "0.x",
+    "masterdata": "1.x"
+  },
+  "scripts": {
+    "prereleasy": "bash lint.sh"
+  },
+  "credentialType": "absolute",
+  "policies": [
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "api.vtex.com",
+        "path": "/api/"
+      }
+    },
+    {
+      "name": "ADMIN_DS"
+    },
+    {
+      "name": "ADMIN_DS-write-logs"
+    }
+  ],
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}
