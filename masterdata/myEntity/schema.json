@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "title": "candidatos",
+  "type": "object",
+  "properties": {
+    "nombre": {
+      "type": "string"
+    },
+    "apellidos": {
+      "type":"string"
+    },
+    "poblacion": {
+      "type":"string"
+    },
+    "provincia": {
+      "type":"string"
+    },
+    "codigo_postal": {
+      "type":"string"
+    },
+    "tel1": {
+      "type": "number"
+    },
+    "tel2": {
+      "type": "number"
+    },
+    "email":{
+      "type":"string"
+    }
+  },
+  "required": [
+    "nombre",
+    "email"
+  ],
+  "v-indexed": [
+    "email"
+  ]
+}
