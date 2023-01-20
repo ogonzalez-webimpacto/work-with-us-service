@@ -5223,7 +5223,7 @@ static-extend@^0.1.1:
     define-property "^0.2.5"
     object-copy "^0.1.0"
 
-"stats-lite@github:vtex/node-stats-lite#dist":
+stats-lite@vtex/node-stats-lite#dist:
   version "2.2.0"
   resolved "https://codeload.github.com/vtex/node-stats-lite/tar.gz/1b0d39cc41ef7aaecfd541191f877887a2044797"
   dependencies:
@@ -5725,6 +5725,10 @@ webidl-conversions@^4.0.2:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-4.0.2.tgz#a855980b1f0b6b359ba1d5d9fb39ae941faa63ad"
   integrity sha512-YQ+BmxuTgd6UXZW3+ICGfyqRyHXVlD5GtQr5+qjiNW7bF0cqrzX500HVXPBOvgXb5YnzDd+h0zqyv61KUD7+Sg==
+
+"webimpacto.work-with-us-service@https://ogonzalez--webimpacto.myvtex.com/_v/private/typings/linked/v1/webimpacto.work-with-us-service@1.0.0+build1674230648/public/@types/webimpacto.work-with-us-service":
+  version "1.0.0"
+  resolved "https://ogonzalez--webimpacto.myvtex.com/_v/private/typings/linked/v1/webimpacto.work-with-us-service@1.0.0+build1674230648/public/@types/webimpacto.work-with-us-service#8698eb5d18a2cef2a4b1bf9337c913609679056e"
 
 whatwg-encoding@^1.0.1, whatwg-encoding@^1.0.3:
   version "1.0.5"

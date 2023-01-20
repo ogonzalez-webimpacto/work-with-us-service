@@ -11,7 +11,8 @@
     "@vtex/api": "6.45.13",
     "@vtex/test-tools": "^1.0.0",
     "@vtex/tsconfig": "^0.5.6",
-    "typescript": "3.9.7"
+    "typescript": "3.9.7",
+    "webimpacto.work-with-us-service": "https://ogonzalez--webimpacto.myvtex.com/_v/private/typings/linked/v1/webimpacto.work-with-us-service@1.0.0+build1674230648/public/@types/webimpacto.work-with-us-service"
   },
   "scripts": {
     "lint": "tsc --noEmit --pretty"
