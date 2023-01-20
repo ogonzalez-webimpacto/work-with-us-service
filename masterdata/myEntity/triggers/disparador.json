@@ -1,0 +1,25 @@
+{
+  "properties": {},
+  "v-triggers": [
+    {
+      "name": "copy-document",
+      "active": true,
+      "condition": "status=window-to-cancel",
+      "action": {
+        "type": "save",
+        "dataEntity": "copy",
+        "json": {
+          "id": "{!id}",
+          "message": "{!message}",
+          "custom": "created/updated by VTEX triggers"
+        }
+      },
+      "retry": {
+        "times": 5,
+        "delay": {
+          "addMinutes": 30
+        }
+      }
+    }
+  ]
+}
