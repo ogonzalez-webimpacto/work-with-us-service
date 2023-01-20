@@ -1,7 +1,7 @@
 {
-  "name": "work-with-us",
+  "name": "work-with-us-service",
   "vendor": "webimpacto",
-  "version": "0.2.20",
+  "version": "1.0.0",
   "title": "work-with-us",
   "description": "Reference app for VTEX IO Services",
   "mustUpdateAt": "2018-01-04",
@@ -25,10 +25,10 @@
       }
     },
     {
-      "name": "ADMIN_DS"
+      "name": "colossus-fire-event"
     },
     {
-      "name": "ADMIN_DS-write-logs"
+      "name": "colossus-write-logs"
     }
   ],
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
