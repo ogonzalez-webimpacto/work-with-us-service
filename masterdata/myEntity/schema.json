@@ -1,6 +1,7 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "title": "candidatos",
+  "name": "candidatos",
+  "title": "info de candidatos",
   "type": "object",
   "properties": {
     "nombre": {
@@ -34,5 +35,22 @@
   ],
   "v-indexed": [
     "email"
+  ],
+  "v-cache": false,
+  "v-triggers": [
+    {
+      "name": "Candidatos data",
+      "active": true,
+      "condition": "sendEmail=true",
+      "action":{
+        "type": "t-email",
+        "template": "dataCandidate",
+        "body":{
+          "nombre": "{!nombre} + ' ' + {!apellidos}",
+          "email": "{!email}",
+          "telefono": "{!tel1}"
+        }
+      }
+    }
   ]
 }
