@@ -39,7 +39,7 @@
   "v-cache": false,
   "v-triggers": [
     {
-      "name": "Candidatos data",
+      "name": "Candidates",
       "active": true,
       "condition": "sendEmail=true",
       "action":{

@@ -2,7 +2,8 @@
   "name": "node",
   "packageManager": "yarn@3.3.1",
   "dependencies": {
-    "@vtex/clients": "^2.21.0"
+    "@vtex/clients": "^2.21.0",
+    "@vtex/api": "6.45.13"
   },
   "devDependencies": {
     "webimpacto.work-with-us-service": "https://ogonzalez--webimpacto.myvtex.com/_v/private/typings/linked/v1/webimpacto.work-with-us-service@1.0.0+build1674230648/public/@types/webimpacto.work-with-us-service"
